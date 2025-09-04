@@ -8,7 +8,6 @@ type DetailProps = {
 
 const DetailScreen: React.FC<DetailProps> = ({ route }) => {
   const { country } = route.params;
-  console.log(country);
 
   return (
     <View style={styles.container}>
